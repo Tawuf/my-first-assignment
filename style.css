@@ -1,0 +1,165 @@
+*{
+   margin: 0;
+}
+/* Header Section */
+.head-section{
+    height: 500px;
+    background-image:url(images/banner/banner1.png);
+    background-repeat: no-repeat;
+     background-size: cover;
+   background-attachment: fixed;
+     
+
+}
+.headText{
+    padding-left: 50%;
+    padding-top: 16%;
+    padding-right: 150px;
+}
+.section-title{
+    Font-size: 40px;
+    Font-style: Bold;
+    margin-bottom: 24px;
+}
+.section-description{
+    Font-size: 16px;
+    color:#444343;
+    margin-bottom: 24px;
+
+}
+.Button1{
+    margin-top: 10px;
+    width: 160px;
+    height: 56px;
+    left: 640px;
+    top: 438px;
+    
+    background: #FF5959;
+    border-radius: 5px;
+    margin-right: 150px;
+    margin-left: 50%;
+    }
+    .section-failure{
+        display: flex;
+        height: 600px;
+    }
+    
+    .failure-text{
+        width: 416px;
+        height: 400px;
+        margin-top: 30%;
+        margin-left: 50px;
+    }
+    .main-image-failure{
+        position: absolute;
+        width: 451px;
+        height: 300px !important;
+    }
+    ul{
+        list-style: none;
+        padding-left: 0;
+    }
+    ul li:before {
+        
+        content: '✓';
+        color: green;
+      }
+    .my-plan{
+      margin-top: 100px;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    .plan-list{
+        display: flex;
+        gap: 24px;
+        justify-content:space-evenly;
+    }
+    h5{
+        color:#737272;
+    }
+    .mindset{
+        height: 200px;
+        background-size:cover;
+        
+        background-image:
+        linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%),
+        url('images/watch.png');
+
+        
+        background-repeat:no-repeat;
+        margin : 100px 200px 130px ;
+       
+        border-radius: 8px;
+        
+        
+    }
+    .Button2{
+       
+            width: 135px;
+            height: 34px;
+            font-size: 20px;
+            background-color: aliceblue ;
+            border: none;
+            color:  coral;
+            margin-top: 18px;
+        
+    }
+    .midset-text{
+        padding-left: 50px;
+        padding-top: 50px;
+    }
+    .footer-section{
+        display: flex;
+        background-color: black;
+        justify-content: space-around;
+        padding-top: 50px;
+    }
+    .footer-text{
+        color: white;
+    }
+    .icon img {
+        width: 30px ;
+        height: 30px;
+        margin-right: 4px;
+    }
+    .email{
+        background-color: black;
+        width: 150px;
+        height: 28px;
+        margin-bottom:10px ;
+        
+    }
+    .subscribe-btn{
+        width: 115px;
+        height: 38px;
+        font-size: 20px;
+       
+        background: #FFFFFF;
+        border-radius: 8px;
+    }
+
+
+
+
+    .depend-survive{
+        display: flex;
+       gap: 24px;
+    }
+    
+    .depend1{
+        margin-top: 200px;
+        margin-left: 100px;
+    }
+    .img1{
+        padding-top: 200px;
+    }
+    .img2{
+        width: 400px;
+             height: 400px;
+    }
+    .lives{
+        font-size: 50px;
+    }
+    .lives-desc{
+        font-size: 30px;
+    }
